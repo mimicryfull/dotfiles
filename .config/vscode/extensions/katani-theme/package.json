@@ -1,0 +1,21 @@
+{
+  "name": "katani-theme",
+  "displayName": "Katani Dark Theme",
+  "description": "Katani Dark Theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Katani Dark P3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/katani-dark-p3.json"
+      }
+    ]
+  }
+}

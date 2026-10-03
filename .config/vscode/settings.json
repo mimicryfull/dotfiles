@@ -1,0 +1,84 @@
+{
+  "window.openFilesInNewWindow": "off",
+  "files.autoSave": "onFocusChange",
+  "window.restoreWindows": "preserve",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.fontFamily": "'MonoLisaCode', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": "'calt', 'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10', 'cv11', 'dlig', 'liga', 'ss04', 'ss11', 'ss13', 'zero'",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "450",
+
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  "editor.renderLineHighlight": "all",
+  "editor.stickyScroll.enabled": true,
+  "editor.renderWhitespace": "selection",
+  "editor.snippetSuggestions": "bottom",
+  "editor.guides.indentation": true,
+  "editor.inlayHints.enabled": "on",
+
+  "editor.scrollBeyondLastLine": false,
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  "workbench.editor.showIcons": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.sideBar.location": "left",
+  "explorer.compactFolders": true,
+
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontFamily": "'Maple Mono NF'",
+  "terminal.integrated.fontSize": 17,
+
+  "telemetry.telemetryLevel": "off",
+  "github.copilot.enable": {
+    "*": false
+  },
+
+  "rust-analyzer.cargo.buildScripts.enable": true,
+  "rust-analyzer.cargo.features": "all",
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.allTargets": true,
+  "rust-analyzer.check.extraArgs": [
+    "--",
+    "-W",
+    "clippy::pedantic",
+    "-W",
+    "clippy::nursery"
+  ],
+  "rust-analyzer.completion.limit": 1000,
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.inlayHints.maxLength": 25,
+  "rust-analyzer.inlayHints.parameterHints.enable": true,
+  "rust-analyzer.inlayHints.typeHints.enable": true,
+  "rust-analyzer.inlayHints.chainingHints.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
+  "rust-analyzer.inlayHints.closingBraceHints.enable": true,
+  "rust-analyzer.inlayHints.closingBraceHints.minLines": 25,
+  "rust-analyzer.procMacro.enable": true,
+
+  "gitlens.currentLine.enabled": true,
+
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#CE93D8",
+    "editorCursor.background": "#1e1e1e"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "workbench.productIconTheme": "Tabler",
+  "workbench.colorTheme": "Katani Dark P3"
+}
