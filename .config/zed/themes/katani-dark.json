@@ -1071,7 +1071,7 @@
         "terminal.ansi.white": "#d7dae0",
         "terminal.ansi.bright_white": "#e6e6e6",
         "terminal.ansi.dim_white": null,
-        "link_text.hover": null,
+        "link_text.hover": "#c678dd",
         "conflict": null,
         "conflict.background": null,
         "conflict.border": null,
