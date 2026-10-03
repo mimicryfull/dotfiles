@@ -1,0 +1,14 @@
+[
+  { "label": "configure", "command": "cmake --preset debug" },
+  { "label": "build", "command": "cmake --build --preset debug" },
+  { "label": "run", "command": "./build/debug/main" },
+  {
+    "label": "release",
+    "command": "cmake --preset release && cmake --build --preset release",
+  },
+  { "label": "tidy", "command": "clang-tidy -p build/debug $ZED_FILE" },
+  {
+    "label": "test",
+    "command": "ctest --test-dir build/debug --output-on-failure",
+  },
+]
