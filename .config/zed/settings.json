@@ -1,4 +1,5 @@
 {
+  "cli_default_open_behavior": "existing_window",
   "autosave": "on_focus_change",
   "restore_on_startup": "last_session",
   "buffer_font_family": "MonoLisaCode",
@@ -131,7 +132,7 @@
     "font_family": "Maple Mono NF",
     "font_size": 17.0,
   },
-  "theme": "Katani Dark",
+  "theme": "Katani Dark P3",
   "ui_font_family": "MonoLisaText",
   "ui_font_features": {
     "calt": true,
@@ -140,4 +141,6 @@
   },
   "ui_font_size": 16.0,
   "ui_font_weight": 450,
+
+  "git_commit_buffer_font_size": 16,
 }
